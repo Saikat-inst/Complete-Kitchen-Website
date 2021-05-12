@@ -1,0 +1,2126 @@
+@font-face {
+    font-family: 'architect-icons';
+    src:  url('../fonts/architect-iconsf3ce.eot?gnths4');
+    src:  url('../fonts/architect-iconsf3ce.eot?gnths4#iefix') format('embedded-opentype'),
+      url('../fonts/architect-iconsf3ce.ttf?gnths4') format('truetype'),
+      url('../fonts/architect-iconsf3ce.woff?gnths4') format('woff'),
+      url('../fonts/architect-iconsf3ce.svg?gnths4#architect-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="architect-icons-"], [class*=" architect-icons-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'architect-icons' !important;
+    speak:none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .architect-icons-back:before {
+    content: "\e91e";
+  }
+  .architect-icons-down-arrow:before {
+    content: "\e91f";
+  }
+  .architect-icons-menu:before {
+    content: "\e920";
+  }
+  .architect-icons-right-arrow:before {
+    content: "\e921";
+  }
+  .architect-icons-ios-add:before {
+    content: "\e900";
+  }
+  .architect-icons-ios-add-circle:before {
+    content: "\e901";
+  }
+  .architect-icons-ios-add-circle-outline:before {
+    content: "\e902";
+  }
+  .architect-icons-ios-airplane:before {
+    content: "\e903";
+  }
+  .architect-icons-ios-alarm:before {
+    content: "\e904";
+  }
+  .architect-icons-ios-albums:before {
+    content: "\e905";
+  }
+  .architect-icons-ios-alert:before {
+    content: "\e906";
+  }
+  .architect-icons-ios-american-football:before {
+    content: "\e907";
+  }
+  .architect-icons-ios-analytics:before {
+    content: "\e908";
+  }
+  .architect-icons-ios-aperture:before {
+    content: "\e909";
+  }
+  .architect-icons-ios-apps:before {
+    content: "\e90a";
+  }
+  .architect-icons-ios-appstore:before {
+    content: "\e90b";
+  }
+  .architect-icons-ios-archive:before {
+    content: "\e90c";
+  }
+  .architect-icons-ios-arrow-back:before {
+    content: "\e90d";
+  }
+  .architect-icons-ios-arrow-down:before {
+    content: "\e90e";
+  }
+  .architect-icons-ios-arrow-dropdown:before {
+    content: "\e90f";
+  }
+  .architect-icons-ios-arrow-dropdown-circle:before {
+    content: "\e910";
+  }
+  .architect-icons-ios-arrow-dropleft:before {
+    content: "\e911";
+  }
+  .architect-icons-ios-arrow-dropleft-circle:before {
+    content: "\e912";
+  }
+  .architect-icons-ios-arrow-dropright:before {
+    content: "\e913";
+  }
+  .architect-icons-ios-arrow-dropright-circle:before {
+    content: "\e914";
+  }
+  .architect-icons-ios-arrow-dropup:before {
+    content: "\e915";
+  }
+  .architect-icons-ios-arrow-dropup-circle:before {
+    content: "\e916";
+  }
+  .architect-icons-ios-arrow-forward:before {
+    content: "\e917";
+  }
+  .architect-icons-ios-arrow-round-back:before {
+    content: "\e918";
+  }
+  .architect-icons-ios-arrow-round-down:before {
+    content: "\e919";
+  }
+  .architect-icons-ios-arrow-round-forward:before {
+    content: "\e91a";
+  }
+  .architect-icons-ios-arrow-round-up:before {
+    content: "\e91b";
+  }
+  .architect-icons-ios-arrow-up:before {
+    content: "\e91c";
+  }
+  .architect-icons-ios-at:before {
+    content: "\e91d";
+  }
+  .architect-icons-ios-attach:before {
+    content: "\e922";
+  }
+  .architect-icons-ios-backspace:before {
+    content: "\e923";
+  }
+  .architect-icons-ios-barcode:before {
+    content: "\e924";
+  }
+  .architect-icons-ios-baseball:before {
+    content: "\e925";
+  }
+  .architect-icons-ios-basket:before {
+    content: "\e926";
+  }
+  .architect-icons-ios-basketball:before {
+    content: "\e927";
+  }
+  .architect-icons-ios-battery-charging:before {
+    content: "\e928";
+  }
+  .architect-icons-ios-battery-dead:before {
+    content: "\e929";
+  }
+  .architect-icons-ios-battery-full:before {
+    content: "\e92a";
+  }
+  .architect-icons-ios-beaker:before {
+    content: "\e92b";
+  }
+  .architect-icons-ios-bed:before {
+    content: "\e92c";
+  }
+  .architect-icons-ios-beer:before {
+    content: "\e92d";
+  }
+  .architect-icons-ios-bicycle:before {
+    content: "\e92e";
+  }
+  .architect-icons-ios-bluetooth:before {
+    content: "\e92f";
+  }
+  .architect-icons-ios-boat:before {
+    content: "\e930";
+  }
+  .architect-icons-ios-body:before {
+    content: "\e931";
+  }
+  .architect-icons-ios-bonfire:before {
+    content: "\e932";
+  }
+  .architect-icons-ios-book:before {
+    content: "\e933";
+  }
+  .architect-icons-ios-bookmark:before {
+    content: "\e934";
+  }
+  .architect-icons-ios-bookmarks:before {
+    content: "\e935";
+  }
+  .architect-icons-ios-bowtie:before {
+    content: "\e936";
+  }
+  .architect-icons-ios-briefcase:before {
+    content: "\e937";
+  }
+  .architect-icons-ios-browsers:before {
+    content: "\e938";
+  }
+  .architect-icons-ios-brush:before {
+    content: "\e939";
+  }
+  .architect-icons-ios-bug:before {
+    content: "\e93a";
+  }
+  .architect-icons-ios-build:before {
+    content: "\e93b";
+  }
+  .architect-icons-ios-bulb:before {
+    content: "\e93c";
+  }
+  .architect-icons-ios-bus:before {
+    content: "\e93d";
+  }
+  .architect-icons-ios-business:before {
+    content: "\e93e";
+  }
+  .architect-icons-ios-cafe:before {
+    content: "\e93f";
+  }
+  .architect-icons-ios-calculator:before {
+    content: "\e940";
+  }
+  .architect-icons-ios-calendar:before {
+    content: "\e941";
+  }
+  .architect-icons-ios-call:before {
+    content: "\e942";
+  }
+  .architect-icons-ios-camera:before {
+    content: "\e943";
+  }
+  .architect-icons-ios-car:before {
+    content: "\e944";
+  }
+  .architect-icons-ios-card:before {
+    content: "\e945";
+  }
+  .architect-icons-ios-cart:before {
+    content: "\e946";
+  }
+  .architect-icons-ios-cash:before {
+    content: "\e947";
+  }
+  .architect-icons-ios-cellular:before {
+    content: "\e948";
+  }
+  .architect-icons-ios-chatboxes:before {
+    content: "\e949";
+  }
+  .architect-icons-ios-chatbubbles:before {
+    content: "\e94a";
+  }
+  .architect-icons-ios-checkbox:before {
+    content: "\e94b";
+  }
+  .architect-icons-ios-checkbox-outline:before {
+    content: "\e94c";
+  }
+  .architect-icons-ios-checkmark:before {
+    content: "\e94d";
+  }
+  .architect-icons-ios-checkmark-circle:before {
+    content: "\e94e";
+  }
+  .architect-icons-ios-checkmark-circle-outline:before {
+    content: "\e94f";
+  }
+  .architect-icons-ios-clipboard:before {
+    content: "\e950";
+  }
+  .architect-icons-ios-clock:before {
+    content: "\e951";
+  }
+  .architect-icons-ios-close:before {
+    content: "\e952";
+  }
+  .architect-icons-ios-close-circle:before {
+    content: "\e953";
+  }
+  .architect-icons-ios-close-circle-outline:before {
+    content: "\e954";
+  }
+  .architect-icons-ios-cloud:before {
+    content: "\e955";
+  }
+  .architect-icons-ios-cloud-circle:before {
+    content: "\e956";
+  }
+  .architect-icons-ios-cloud-done:before {
+    content: "\e957";
+  }
+  .architect-icons-ios-cloud-download:before {
+    content: "\e958";
+  }
+  .architect-icons-ios-cloud-outline:before {
+    content: "\e959";
+  }
+  .architect-icons-ios-cloud-upload:before {
+    content: "\e95a";
+  }
+  .architect-icons-ios-cloudy:before {
+    content: "\e95b";
+  }
+  .architect-icons-ios-cloudy-night:before {
+    content: "\e95c";
+  }
+  .architect-icons-ios-code:before {
+    content: "\e95d";
+  }
+  .architect-icons-ios-code-download:before {
+    content: "\e95e";
+  }
+  .architect-icons-ios-code-working:before {
+    content: "\e95f";
+  }
+  .architect-icons-ios-cog:before {
+    content: "\e960";
+  }
+  .architect-icons-ios-color-fill:before {
+    content: "\e961";
+  }
+  .architect-icons-ios-color-filter:before {
+    content: "\e962";
+  }
+  .architect-icons-ios-color-palette:before {
+    content: "\e963";
+  }
+  .architect-icons-ios-color-wand:before {
+    content: "\e964";
+  }
+  .architect-icons-ios-compass:before {
+    content: "\e965";
+  }
+  .architect-icons-ios-construct:before {
+    content: "\e966";
+  }
+  .architect-icons-ios-contact:before {
+    content: "\e967";
+  }
+  .architect-icons-ios-contacts:before {
+    content: "\e968";
+  }
+  .architect-icons-ios-contract:before {
+    content: "\e969";
+  }
+  .architect-icons-ios-contrast:before {
+    content: "\e96a";
+  }
+  .architect-icons-ios-copy:before {
+    content: "\e96b";
+  }
+  .architect-icons-ios-create:before {
+    content: "\e96c";
+  }
+  .architect-icons-ios-crop:before {
+    content: "\e96d";
+  }
+  .architect-icons-ios-cube:before {
+    content: "\e96e";
+  }
+  .architect-icons-ios-cut:before {
+    content: "\e96f";
+  }
+  .architect-icons-ios-desktop:before {
+    content: "\e970";
+  }
+  .architect-icons-ios-disc:before {
+    content: "\e971";
+  }
+  .architect-icons-ios-document:before {
+    content: "\e972";
+  }
+  .architect-icons-ios-done-all:before {
+    content: "\e973";
+  }
+  .architect-icons-ios-download:before {
+    content: "\e974";
+  }
+  .architect-icons-ios-easel:before {
+    content: "\e975";
+  }
+  .architect-icons-ios-egg:before {
+    content: "\e976";
+  }
+  .architect-icons-ios-exit:before {
+    content: "\e977";
+  }
+  .architect-icons-ios-expand:before {
+    content: "\e978";
+  }
+  .architect-icons-ios-eye:before {
+    content: "\e979";
+  }
+  .architect-icons-ios-eye-off:before {
+    content: "\e97a";
+  }
+  .architect-icons-ios-fastforward:before {
+    content: "\e97b";
+  }
+  .architect-icons-ios-female:before {
+    content: "\e97c";
+  }
+  .architect-icons-ios-filing:before {
+    content: "\e97d";
+  }
+  .architect-icons-ios-film:before {
+    content: "\e97e";
+  }
+  .architect-icons-ios-finger-print:before {
+    content: "\e97f";
+  }
+  .architect-icons-ios-fitness:before {
+    content: "\e980";
+  }
+  .architect-icons-ios-flag:before {
+    content: "\e981";
+  }
+  .architect-icons-ios-flame:before {
+    content: "\e982";
+  }
+  .architect-icons-ios-flash:before {
+    content: "\e983";
+  }
+  .architect-icons-ios-flashlight:before {
+    content: "\e984";
+  }
+  .architect-icons-ios-flash-off:before {
+    content: "\e985";
+  }
+  .architect-icons-ios-flask:before {
+    content: "\e986";
+  }
+  .architect-icons-ios-flower:before {
+    content: "\e987";
+  }
+  .architect-icons-ios-folder:before {
+    content: "\e988";
+  }
+  .architect-icons-ios-folder-open:before {
+    content: "\e989";
+  }
+  .architect-icons-ios-football:before {
+    content: "\e98a";
+  }
+  .architect-icons-ios-funnel:before {
+    content: "\e98b";
+  }
+  .architect-icons-ios-gift:before {
+    content: "\e98c";
+  }
+  .architect-icons-ios-git-branch:before {
+    content: "\e98d";
+  }
+  .architect-icons-ios-git-commit:before {
+    content: "\e98e";
+  }
+  .architect-icons-ios-git-compare:before {
+    content: "\e98f";
+  }
+  .architect-icons-ios-git-merge:before {
+    content: "\e990";
+  }
+  .architect-icons-ios-git-network:before {
+    content: "\e991";
+  }
+  .architect-icons-ios-git-pull-request:before {
+    content: "\e992";
+  }
+  .architect-icons-ios-glasses:before {
+    content: "\e993";
+  }
+  .architect-icons-ios-globe:before {
+    content: "\e994";
+  }
+  .architect-icons-ios-grid:before {
+    content: "\e995";
+  }
+  .architect-icons-ios-hammer:before {
+    content: "\e996";
+  }
+  .architect-icons-ios-hand:before {
+    content: "\e997";
+  }
+  .architect-icons-ios-happy:before {
+    content: "\e998";
+  }
+  .architect-icons-ios-headset:before {
+    content: "\e999";
+  }
+  .architect-icons-ios-heart:before {
+    content: "\e99a";
+  }
+  .architect-icons-ios-heart-dislike:before {
+    content: "\e99b";
+  }
+  .architect-icons-ios-heart-empty:before {
+    content: "\e99c";
+  }
+  .architect-icons-ios-heart-half:before {
+    content: "\e99d";
+  }
+  .architect-icons-ios-help:before {
+    content: "\e99e";
+  }
+  .architect-icons-ios-help-buoy:before {
+    content: "\e99f";
+  }
+  .architect-icons-ios-help-circle:before {
+    content: "\e9a0";
+  }
+  .architect-icons-ios-help-circle-outline:before {
+    content: "\e9a1";
+  }
+  .architect-icons-ios-home:before {
+    content: "\e9a2";
+  }
+  .architect-icons-ios-hourglass:before {
+    content: "\e9a3";
+  }
+  .architect-icons-ios-ice-cream:before {
+    content: "\e9a4";
+  }
+  .architect-icons-ios-image:before {
+    content: "\e9a5";
+  }
+  .architect-icons-ios-images:before {
+    content: "\e9a6";
+  }
+  .architect-icons-ios-infinite:before {
+    content: "\e9a7";
+  }
+  .architect-icons-ios-information:before {
+    content: "\e9a8";
+  }
+  .architect-icons-ios-information-circle:before {
+    content: "\e9a9";
+  }
+  .architect-icons-ios-information-circle-outline:before {
+    content: "\e9aa";
+  }
+  .architect-icons-ios-jet:before {
+    content: "\e9ab";
+  }
+  .architect-icons-ios-journal:before {
+    content: "\e9ac";
+  }
+  .architect-icons-ios-key:before {
+    content: "\e9ad";
+  }
+  .architect-icons-ios-keypad:before {
+    content: "\e9ae";
+  }
+  .architect-icons-ios-laptop:before {
+    content: "\e9af";
+  }
+  .architect-icons-ios-leaf:before {
+    content: "\e9b0";
+  }
+  .architect-icons-ios-link:before {
+    content: "\e9b1";
+  }
+  .architect-icons-ios-list:before {
+    content: "\e9b2";
+  }
+  .architect-icons-ios-list-box:before {
+    content: "\e9b3";
+  }
+  .architect-icons-ios-locate:before {
+    content: "\e9b4";
+  }
+  .architect-icons-ios-lock:before {
+    content: "\e9b5";
+  }
+  .architect-icons-ios-log-in:before {
+    content: "\e9b6";
+  }
+  .architect-icons-ios-log-out:before {
+    content: "\e9b7";
+  }
+  .architect-icons-ios-magnet:before {
+    content: "\e9b8";
+  }
+  .architect-icons-ios-mail:before {
+    content: "\e9b9";
+  }
+  .architect-icons-ios-mail-open:before {
+    content: "\e9ba";
+  }
+  .architect-icons-ios-mail-unread:before {
+    content: "\e9bb";
+  }
+  .architect-icons-ios-male:before {
+    content: "\e9bc";
+  }
+  .architect-icons-ios-man:before {
+    content: "\e9bd";
+  }
+  .architect-icons-ios-map:before {
+    content: "\e9be";
+  }
+  .architect-icons-ios-medal:before {
+    content: "\e9bf";
+  }
+  .architect-icons-ios-medical:before {
+    content: "\e9c0";
+  }
+  .architect-icons-ios-medkit:before {
+    content: "\e9c1";
+  }
+  .architect-icons-ios-megaphone:before {
+    content: "\e9c2";
+  }
+  .architect-icons-ios-menu:before {
+    content: "\e9c3";
+  }
+  .architect-icons-ios-mic:before {
+    content: "\e9c4";
+  }
+  .architect-icons-ios-mic-off:before {
+    content: "\e9c5";
+  }
+  .architect-icons-ios-microphone:before {
+    content: "\e9c6";
+  }
+  .architect-icons-ios-moon:before {
+    content: "\e9c7";
+  }
+  .architect-icons-ios-more:before {
+    content: "\e9c8";
+  }
+  .architect-icons-ios-move:before {
+    content: "\e9c9";
+  }
+  .architect-icons-ios-musical-note:before {
+    content: "\e9ca";
+  }
+  .architect-icons-ios-musical-notes:before {
+    content: "\e9cb";
+  }
+  .architect-icons-ios-navigate:before {
+    content: "\e9cc";
+  }
+  .architect-icons-ios-notifications:before {
+    content: "\e9cd";
+  }
+  .architect-icons-ios-notifications-off:before {
+    content: "\e9ce";
+  }
+  .architect-icons-ios-notifications-outline:before {
+    content: "\e9cf";
+  }
+  .architect-icons-ios-nuclear:before {
+    content: "\e9d0";
+  }
+  .architect-icons-ios-nutrition:before {
+    content: "\e9d1";
+  }
+  .architect-icons-ios-open:before {
+    content: "\e9d2";
+  }
+  .architect-icons-ios-options:before {
+    content: "\e9d3";
+  }
+  .architect-icons-ios-outlet:before {
+    content: "\e9d4";
+  }
+  .architect-icons-ios-paper:before {
+    content: "\e9d5";
+  }
+  .architect-icons-ios-paper-plane:before {
+    content: "\e9d6";
+  }
+  .architect-icons-ios-partly-sunny:before {
+    content: "\e9d7";
+  }
+  .architect-icons-ios-pause:before {
+    content: "\e9d8";
+  }
+  .architect-icons-ios-paw:before {
+    content: "\e9d9";
+  }
+  .architect-icons-ios-people:before {
+    content: "\e9da";
+  }
+  .architect-icons-ios-person:before {
+    content: "\e9db";
+  }
+  .architect-icons-ios-person-add:before {
+    content: "\e9dc";
+  }
+  .architect-icons-ios-phone-landscape:before {
+    content: "\e9dd";
+  }
+  .architect-icons-ios-phone-portrait:before {
+    content: "\e9de";
+  }
+  .architect-icons-ios-photos:before {
+    content: "\e9df";
+  }
+  .architect-icons-ios-pie:before {
+    content: "\e9e0";
+  }
+  .architect-icons-ios-pin:before {
+    content: "\e9e1";
+  }
+  .architect-icons-ios-pint:before {
+    content: "\e9e2";
+  }
+  .architect-icons-ios-pizza:before {
+    content: "\e9e3";
+  }
+  .architect-icons-ios-planet:before {
+    content: "\e9e4";
+  }
+  .architect-icons-ios-play:before {
+    content: "\e9e5";
+  }
+  .architect-icons-ios-play-circle:before {
+    content: "\e9e6";
+  }
+  .architect-icons-ios-podium:before {
+    content: "\e9e7";
+  }
+  .architect-icons-ios-power:before {
+    content: "\e9e8";
+  }
+  .architect-icons-ios-pricetag:before {
+    content: "\e9e9";
+  }
+  .architect-icons-ios-pricetags:before {
+    content: "\e9ea";
+  }
+  .architect-icons-ios-print:before {
+    content: "\e9eb";
+  }
+  .architect-icons-ios-pulse:before {
+    content: "\e9ec";
+  }
+  .architect-icons-ios-qr-scanner:before {
+    content: "\e9ed";
+  }
+  .architect-icons-ios-quote:before {
+    content: "\e9ee";
+  }
+  .architect-icons-ios-radio:before {
+    content: "\e9ef";
+  }
+  .architect-icons-ios-radio-button-off:before {
+    content: "\e9f0";
+  }
+  .architect-icons-ios-radio-button-on:before {
+    content: "\e9f1";
+  }
+  .architect-icons-ios-rainy:before {
+    content: "\e9f2";
+  }
+  .architect-icons-ios-recording:before {
+    content: "\e9f3";
+  }
+  .architect-icons-ios-redo:before {
+    content: "\e9f4";
+  }
+  .architect-icons-ios-refresh:before {
+    content: "\e9f5";
+  }
+  .architect-icons-ios-refresh-circle:before {
+    content: "\e9f6";
+  }
+  .architect-icons-ios-remove:before {
+    content: "\e9f7";
+  }
+  .architect-icons-ios-remove-circle:before {
+    content: "\e9f8";
+  }
+  .architect-icons-ios-remove-circle-outline:before {
+    content: "\e9f9";
+  }
+  .architect-icons-ios-reorder:before {
+    content: "\e9fa";
+  }
+  .architect-icons-ios-repeat:before {
+    content: "\e9fb";
+  }
+  .architect-icons-ios-resize:before {
+    content: "\e9fc";
+  }
+  .architect-icons-ios-restaurant:before {
+    content: "\e9fd";
+  }
+  .architect-icons-ios-return-left:before {
+    content: "\e9fe";
+  }
+  .architect-icons-ios-return-right:before {
+    content: "\e9ff";
+  }
+  .architect-icons-ios-reverse-camera:before {
+    content: "\ea00";
+  }
+  .architect-icons-ios-rewind:before {
+    content: "\ea01";
+  }
+  .architect-icons-ios-ribbon:before {
+    content: "\ea02";
+  }
+  .architect-icons-ios-rocket:before {
+    content: "\ea03";
+  }
+  .architect-icons-ios-rose:before {
+    content: "\ea04";
+  }
+  .architect-icons-ios-sad:before {
+    content: "\ea05";
+  }
+  .architect-icons-ios-save:before {
+    content: "\ea06";
+  }
+  .architect-icons-ios-school:before {
+    content: "\ea07";
+  }
+  .architect-icons-ios-search:before {
+    content: "\ea08";
+  }
+  .architect-icons-ios-send:before {
+    content: "\ea09";
+  }
+  .architect-icons-ios-settings:before {
+    content: "\ea0a";
+  }
+  .architect-icons-ios-share:before {
+    content: "\ea0b";
+  }
+  .architect-icons-ios-share-alt:before {
+    content: "\ea0c";
+  }
+  .architect-icons-ios-shirt:before {
+    content: "\ea0d";
+  }
+  .architect-icons-ios-shuffle:before {
+    content: "\ea0e";
+  }
+  .architect-icons-ios-skip-backward:before {
+    content: "\ea0f";
+  }
+  .architect-icons-ios-skip-forward:before {
+    content: "\ea10";
+  }
+  .architect-icons-ios-snow:before {
+    content: "\ea11";
+  }
+  .architect-icons-ios-speedometer:before {
+    content: "\ea12";
+  }
+  .architect-icons-ios-square:before {
+    content: "\ea13";
+  }
+  .architect-icons-ios-square-outline:before {
+    content: "\ea14";
+  }
+  .architect-icons-ios-star:before {
+    content: "\ea15";
+  }
+  .architect-icons-ios-star-half:before {
+    content: "\ea16";
+  }
+  .architect-icons-ios-star-outline:before {
+    content: "\ea17";
+  }
+  .architect-icons-ios-stats:before {
+    content: "\ea18";
+  }
+  .architect-icons-ios-stopwatch:before {
+    content: "\ea19";
+  }
+  .architect-icons-ios-subway:before {
+    content: "\ea1a";
+  }
+  .architect-icons-ios-sunny:before {
+    content: "\ea1b";
+  }
+  .architect-icons-ios-swap:before {
+    content: "\ea1c";
+  }
+  .architect-icons-ios-switch:before {
+    content: "\ea1d";
+  }
+  .architect-icons-ios-sync:before {
+    content: "\ea1e";
+  }
+  .architect-icons-ios-tablet-landscape:before {
+    content: "\ea1f";
+  }
+  .architect-icons-ios-tablet-portrait:before {
+    content: "\ea20";
+  }
+  .architect-icons-ios-tennisball:before {
+    content: "\ea21";
+  }
+  .architect-icons-ios-text:before {
+    content: "\ea22";
+  }
+  .architect-icons-ios-thermometer:before {
+    content: "\ea23";
+  }
+  .architect-icons-ios-thumbs-down:before {
+    content: "\ea24";
+  }
+  .architect-icons-ios-thumbs-up:before {
+    content: "\ea25";
+  }
+  .architect-icons-ios-thunderstorm:before {
+    content: "\ea26";
+  }
+  .architect-icons-ios-time:before {
+    content: "\ea27";
+  }
+  .architect-icons-ios-timer:before {
+    content: "\ea28";
+  }
+  .architect-icons-ios-today:before {
+    content: "\ea29";
+  }
+  .architect-icons-ios-train:before {
+    content: "\ea2a";
+  }
+  .architect-icons-ios-transgender:before {
+    content: "\ea2b";
+  }
+  .architect-icons-ios-trash:before {
+    content: "\ea2c";
+  }
+  .architect-icons-ios-trending-down:before {
+    content: "\ea2d";
+  }
+  .architect-icons-ios-trending-up:before {
+    content: "\ea2e";
+  }
+  .architect-icons-ios-trophy:before {
+    content: "\ea2f";
+  }
+  .architect-icons-ios-tv:before {
+    content: "\ea30";
+  }
+  .architect-icons-ios-umbrella:before {
+    content: "\ea31";
+  }
+  .architect-icons-ios-undo:before {
+    content: "\ea32";
+  }
+  .architect-icons-ios-unlock:before {
+    content: "\ea33";
+  }
+  .architect-icons-ios-videocam:before {
+    content: "\ea34";
+  }
+  .architect-icons-ios-volume-high:before {
+    content: "\ea35";
+  }
+  .architect-icons-ios-volume-low:before {
+    content: "\ea36";
+  }
+  .architect-icons-ios-volume-mute:before {
+    content: "\ea37";
+  }
+  .architect-icons-ios-volume-off:before {
+    content: "\ea38";
+  }
+  .architect-icons-ios-walk:before {
+    content: "\ea39";
+  }
+  .architect-icons-ios-wallet:before {
+    content: "\ea3a";
+  }
+  .architect-icons-ios-warning:before {
+    content: "\ea3b";
+  }
+  .architect-icons-ios-watch:before {
+    content: "\ea3c";
+  }
+  .architect-icons-ios-water:before {
+    content: "\ea3d";
+  }
+  .architect-icons-ios-wifi:before {
+    content: "\ea3e";
+  }
+  .architect-icons-ios-wine:before {
+    content: "\ea3f";
+  }
+  .architect-icons-ios-woman:before {
+    content: "\ea40";
+  }
+  .architect-icons-logo-android:before {
+    content: "\ea41";
+  }
+  .architect-icons-logo-angular:before {
+    content: "\ea42";
+  }
+  .architect-icons-logo-apple:before {
+    content: "\ea43";
+  }
+  .architect-icons-logo-bitbucket:before {
+    content: "\ea44";
+  }
+  .architect-icons-logo-bitcoin:before {
+    content: "\ea45";
+  }
+  .architect-icons-logo-buffer:before {
+    content: "\ea46";
+  }
+  .architect-icons-logo-chrome:before {
+    content: "\ea47";
+  }
+  .architect-icons-logo-closed-captioning:before {
+    content: "\ea48";
+  }
+  .architect-icons-logo-codepen:before {
+    content: "\ea49";
+  }
+  .architect-icons-logo-css3:before {
+    content: "\ea4a";
+  }
+  .architect-icons-logo-designernews:before {
+    content: "\ea4b";
+  }
+  .architect-icons-logo-dribbble:before {
+    content: "\ea4c";
+  }
+  .architect-icons-logo-dropbox:before {
+    content: "\ea4d";
+  }
+  .architect-icons-logo-euro:before {
+    content: "\ea4e";
+  }
+  .architect-icons-logo-facebook:before {
+    content: "\ea4f";
+  }
+  .architect-icons-logo-flickr:before {
+    content: "\ea50";
+  }
+  .architect-icons-logo-foursquare:before {
+    content: "\ea51";
+  }
+  .architect-icons-logo-freebsd-devil:before {
+    content: "\ea52";
+  }
+  .architect-icons-logo-game-controller-a:before {
+    content: "\ea53";
+  }
+  .architect-icons-logo-game-controller-b:before {
+    content: "\ea54";
+  }
+  .architect-icons-logo-github:before {
+    content: "\ea55";
+  }
+  .architect-icons-logo-google:before {
+    content: "\ea56";
+  }
+  .architect-icons-logo-googleplus:before {
+    content: "\ea57";
+  }
+  .architect-icons-logo-hackernews:before {
+    content: "\ea58";
+  }
+  .architect-icons-logo-html5:before {
+    content: "\ea59";
+  }
+  .architect-icons-logo-instagram:before {
+    content: "\ea5a";
+  }
+  .architect-icons-logo-ionic:before {
+    content: "\ea5b";
+  }
+  .architect-icons-logo-ionitron:before {
+    content: "\ea5c";
+  }
+  .architect-icons-logo-javascript:before {
+    content: "\ea5d";
+  }
+  .architect-icons-logo-linkedin:before {
+    content: "\ea5e";
+  }
+  .architect-icons-logo-markdown:before {
+    content: "\ea5f";
+  }
+  .architect-icons-logo-model-s:before {
+    content: "\ea60";
+  }
+  .architect-icons-logo-nodejs:before {
+    content: "\ea61";
+  }
+  .architect-icons-logo-no-smoking:before {
+    content: "\ea62";
+  }
+  .architect-icons-logo-npm:before {
+    content: "\ea63";
+  }
+  .architect-icons-logo-octocat:before {
+    content: "\ea64";
+  }
+  .architect-icons-logo-pinterest:before {
+    content: "\ea65";
+  }
+  .architect-icons-logo-playstation:before {
+    content: "\ea66";
+  }
+  .architect-icons-logo-polymer:before {
+    content: "\ea67";
+  }
+  .architect-icons-logo-python:before {
+    content: "\ea68";
+  }
+  .architect-icons-logo-reddit:before {
+    content: "\ea69";
+  }
+  .architect-icons-logo-rss:before {
+    content: "\ea6a";
+  }
+  .architect-icons-logo-sass:before {
+    content: "\ea6b";
+  }
+  .architect-icons-logo-skype:before {
+    content: "\ea6c";
+  }
+  .architect-icons-logo-slack:before {
+    content: "\ea6d";
+  }
+  .architect-icons-logo-snapchat:before {
+    content: "\ea6e";
+  }
+  .architect-icons-logo-steam:before {
+    content: "\ea6f";
+  }
+  .architect-icons-logo-tumblr:before {
+    content: "\ea70";
+  }
+  .architect-icons-logo-tux:before {
+    content: "\ea71";
+  }
+  .architect-icons-logo-twitch:before {
+    content: "\ea72";
+  }
+  .architect-icons-logo-twitter:before {
+    content: "\ea73";
+  }
+  .architect-icons-logo-usd:before {
+    content: "\ea74";
+  }
+  .architect-icons-logo-vimeo:before {
+    content: "\ea75";
+  }
+  .architect-icons-logo-vk:before {
+    content: "\ea76";
+  }
+  .architect-icons-logo-whatsapp:before {
+    content: "\ea77";
+  }
+  .architect-icons-logo-windows:before {
+    content: "\ea78";
+  }
+  .architect-icons-logo-wordpress:before {
+    content: "\ea79";
+  }
+  .architect-icons-logo-xbox:before {
+    content: "\ea7a";
+  }
+  .architect-icons-logo-xing:before {
+    content: "\ea7b";
+  }
+  .architect-icons-logo-yahoo:before {
+    content: "\ea7c";
+  }
+  .architect-icons-logo-yen:before {
+    content: "\ea7d";
+  }
+  .architect-icons-logo-youtube:before {
+    content: "\ea7e";
+  }
+  .architect-icons-md-add:before {
+    content: "\ea7f";
+  }
+  .architect-icons-md-add-circle:before {
+    content: "\ea80";
+  }
+  .architect-icons-md-add-circle-outline:before {
+    content: "\ea81";
+  }
+  .architect-icons-md-airplane:before {
+    content: "\ea82";
+  }
+  .architect-icons-md-alarm:before {
+    content: "\ea83";
+  }
+  .architect-icons-md-albums:before {
+    content: "\ea84";
+  }
+  .architect-icons-md-alert:before {
+    content: "\ea85";
+  }
+  .architect-icons-md-american-football:before {
+    content: "\ea86";
+  }
+  .architect-icons-md-analytics:before {
+    content: "\ea87";
+  }
+  .architect-icons-md-aperture:before {
+    content: "\ea88";
+  }
+  .architect-icons-md-apps:before {
+    content: "\ea89";
+  }
+  .architect-icons-md-appstore:before {
+    content: "\ea8a";
+  }
+  .architect-icons-md-archive:before {
+    content: "\ea8b";
+  }
+  .architect-icons-md-arrow-back:before {
+    content: "\ea8c";
+  }
+  .architect-icons-md-arrow-down:before {
+    content: "\ea8d";
+  }
+  .architect-icons-md-arrow-dropdown:before {
+    content: "\ea8e";
+  }
+  .architect-icons-md-arrow-dropdown-circle:before {
+    content: "\ea8f";
+  }
+  .architect-icons-md-arrow-dropleft:before {
+    content: "\ea90";
+  }
+  .architect-icons-md-arrow-dropleft-circle:before {
+    content: "\ea91";
+  }
+  .architect-icons-md-arrow-dropright:before {
+    content: "\ea92";
+  }
+  .architect-icons-md-arrow-dropright-circle:before {
+    content: "\ea93";
+  }
+  .architect-icons-md-arrow-dropup:before {
+    content: "\ea94";
+  }
+  .architect-icons-md-arrow-dropup-circle:before {
+    content: "\ea95";
+  }
+  .architect-icons-md-arrow-forward:before {
+    content: "\ea96";
+  }
+  .architect-icons-md-arrow-round-back:before {
+    content: "\ea97";
+  }
+  .architect-icons-md-arrow-round-down:before {
+    content: "\ea98";
+  }
+  .architect-icons-md-arrow-round-forward:before {
+    content: "\ea99";
+  }
+  .architect-icons-md-arrow-round-up:before {
+    content: "\ea9a";
+  }
+  .architect-icons-md-arrow-up:before {
+    content: "\ea9b";
+  }
+  .architect-icons-md-at:before {
+    content: "\ea9c";
+  }
+  .architect-icons-md-attach:before {
+    content: "\ea9d";
+  }
+  .architect-icons-md-backspace:before {
+    content: "\ea9e";
+  }
+  .architect-icons-md-barcode:before {
+    content: "\ea9f";
+  }
+  .architect-icons-md-baseball:before {
+    content: "\eaa0";
+  }
+  .architect-icons-md-basket:before {
+    content: "\eaa1";
+  }
+  .architect-icons-md-basketball:before {
+    content: "\eaa2";
+  }
+  .architect-icons-md-battery-charging:before {
+    content: "\eaa3";
+  }
+  .architect-icons-md-battery-dead:before {
+    content: "\eaa4";
+  }
+  .architect-icons-md-battery-full:before {
+    content: "\eaa5";
+  }
+  .architect-icons-md-beaker:before {
+    content: "\eaa6";
+  }
+  .architect-icons-md-bed:before {
+    content: "\eaa7";
+  }
+  .architect-icons-md-beer:before {
+    content: "\eaa8";
+  }
+  .architect-icons-md-bicycle:before {
+    content: "\eaa9";
+  }
+  .architect-icons-md-bluetooth:before {
+    content: "\eaaa";
+  }
+  .architect-icons-md-boat:before {
+    content: "\eaab";
+  }
+  .architect-icons-md-body:before {
+    content: "\eaac";
+  }
+  .architect-icons-md-bonfire:before {
+    content: "\eaad";
+  }
+  .architect-icons-md-book:before {
+    content: "\eaae";
+  }
+  .architect-icons-md-bookmark:before {
+    content: "\eaaf";
+  }
+  .architect-icons-md-bookmarks:before {
+    content: "\eab0";
+  }
+  .architect-icons-md-bowtie:before {
+    content: "\eab1";
+  }
+  .architect-icons-md-briefcase:before {
+    content: "\eab2";
+  }
+  .architect-icons-md-browsers:before {
+    content: "\eab3";
+  }
+  .architect-icons-md-brush:before {
+    content: "\eab4";
+  }
+  .architect-icons-md-bug:before {
+    content: "\eab5";
+  }
+  .architect-icons-md-build:before {
+    content: "\eab6";
+  }
+  .architect-icons-md-bulb:before {
+    content: "\eab7";
+  }
+  .architect-icons-md-bus:before {
+    content: "\eab8";
+  }
+  .architect-icons-md-business:before {
+    content: "\eab9";
+  }
+  .architect-icons-md-cafe:before {
+    content: "\eaba";
+  }
+  .architect-icons-md-calculator:before {
+    content: "\eabb";
+  }
+  .architect-icons-md-calendar:before {
+    content: "\eabc";
+  }
+  .architect-icons-md-call:before {
+    content: "\eabd";
+  }
+  .architect-icons-md-camera:before {
+    content: "\eabe";
+  }
+  .architect-icons-md-car:before {
+    content: "\eabf";
+  }
+  .architect-icons-md-card:before {
+    content: "\eac0";
+  }
+  .architect-icons-md-cart:before {
+    content: "\eac1";
+  }
+  .architect-icons-md-cash:before {
+    content: "\eac2";
+  }
+  .architect-icons-md-cellular:before {
+    content: "\eac3";
+  }
+  .architect-icons-md-chatboxes:before {
+    content: "\eac4";
+  }
+  .architect-icons-md-chatbubbles:before {
+    content: "\eac5";
+  }
+  .architect-icons-md-checkbox:before {
+    content: "\eac6";
+  }
+  .architect-icons-md-checkbox-outline:before {
+    content: "\eac7";
+  }
+  .architect-icons-md-checkmark:before {
+    content: "\eac8";
+  }
+  .architect-icons-md-checkmark-circle:before {
+    content: "\eac9";
+  }
+  .architect-icons-md-checkmark-circle-outline:before {
+    content: "\eaca";
+  }
+  .architect-icons-md-clipboard:before {
+    content: "\eacb";
+  }
+  .architect-icons-md-clock:before {
+    content: "\eacc";
+  }
+  .architect-icons-md-close:before {
+    content: "\eacd";
+  }
+  .architect-icons-md-close-circle:before {
+    content: "\eace";
+  }
+  .architect-icons-md-close-circle-outline:before {
+    content: "\eacf";
+  }
+  .architect-icons-md-cloud:before {
+    content: "\ead0";
+  }
+  .architect-icons-md-cloud-circle:before {
+    content: "\ead1";
+  }
+  .architect-icons-md-cloud-done:before {
+    content: "\ead2";
+  }
+  .architect-icons-md-cloud-download:before {
+    content: "\ead3";
+  }
+  .architect-icons-md-cloud-outline:before {
+    content: "\ead4";
+  }
+  .architect-icons-md-cloud-upload:before {
+    content: "\ead5";
+  }
+  .architect-icons-md-cloudy:before {
+    content: "\ead6";
+  }
+  .architect-icons-md-cloudy-night:before {
+    content: "\ead7";
+  }
+  .architect-icons-md-code:before {
+    content: "\ead8";
+  }
+  .architect-icons-md-code-download:before {
+    content: "\ead9";
+  }
+  .architect-icons-md-code-working:before {
+    content: "\eada";
+  }
+  .architect-icons-md-cog:before {
+    content: "\eadb";
+  }
+  .architect-icons-md-color-fill:before {
+    content: "\eadc";
+  }
+  .architect-icons-md-color-filter:before {
+    content: "\eadd";
+  }
+  .architect-icons-md-color-palette:before {
+    content: "\eade";
+  }
+  .architect-icons-md-color-wand:before {
+    content: "\eadf";
+  }
+  .architect-icons-md-compass:before {
+    content: "\eae0";
+  }
+  .architect-icons-md-construct:before {
+    content: "\eae1";
+  }
+  .architect-icons-md-contact:before {
+    content: "\eae2";
+  }
+  .architect-icons-md-contacts:before {
+    content: "\eae3";
+  }
+  .architect-icons-md-contract:before {
+    content: "\eae4";
+  }
+  .architect-icons-md-contrast:before {
+    content: "\eae5";
+  }
+  .architect-icons-md-copy:before {
+    content: "\eae6";
+  }
+  .architect-icons-md-create:before {
+    content: "\eae7";
+  }
+  .architect-icons-md-crop:before {
+    content: "\eae8";
+  }
+  .architect-icons-md-cube:before {
+    content: "\eae9";
+  }
+  .architect-icons-md-cut:before {
+    content: "\eaea";
+  }
+  .architect-icons-md-desktop:before {
+    content: "\eaeb";
+  }
+  .architect-icons-md-disc:before {
+    content: "\eaec";
+  }
+  .architect-icons-md-document:before {
+    content: "\eaed";
+  }
+  .architect-icons-md-done-all:before {
+    content: "\eaee";
+  }
+  .architect-icons-md-download:before {
+    content: "\eaef";
+  }
+  .architect-icons-md-easel:before {
+    content: "\eaf0";
+  }
+  .architect-icons-md-egg:before {
+    content: "\eaf1";
+  }
+  .architect-icons-md-exit:before {
+    content: "\eaf2";
+  }
+  .architect-icons-md-expand:before {
+    content: "\eaf3";
+  }
+  .architect-icons-md-eye:before {
+    content: "\eaf4";
+  }
+  .architect-icons-md-eye-off:before {
+    content: "\eaf5";
+  }
+  .architect-icons-md-fastforward:before {
+    content: "\eaf6";
+  }
+  .architect-icons-md-female:before {
+    content: "\eaf7";
+  }
+  .architect-icons-md-filing:before {
+    content: "\eaf8";
+  }
+  .architect-icons-md-film:before {
+    content: "\eaf9";
+  }
+  .architect-icons-md-finger-print:before {
+    content: "\eafa";
+  }
+  .architect-icons-md-fitness:before {
+    content: "\eafb";
+  }
+  .architect-icons-md-flag:before {
+    content: "\eafc";
+  }
+  .architect-icons-md-flame:before {
+    content: "\eafd";
+  }
+  .architect-icons-md-flash:before {
+    content: "\eafe";
+  }
+  .architect-icons-md-flashlight:before {
+    content: "\eaff";
+  }
+  .architect-icons-md-flash-off:before {
+    content: "\eb00";
+  }
+  .architect-icons-md-flask:before {
+    content: "\eb01";
+  }
+  .architect-icons-md-flower:before {
+    content: "\eb02";
+  }
+  .architect-icons-md-folder:before {
+    content: "\eb03";
+  }
+  .architect-icons-md-folder-open:before {
+    content: "\eb04";
+  }
+  .architect-icons-md-football:before {
+    content: "\eb05";
+  }
+  .architect-icons-md-funnel:before {
+    content: "\eb06";
+  }
+  .architect-icons-md-gift:before {
+    content: "\eb07";
+  }
+  .architect-icons-md-git-branch:before {
+    content: "\eb08";
+  }
+  .architect-icons-md-git-commit:before {
+    content: "\eb09";
+  }
+  .architect-icons-md-git-compare:before {
+    content: "\eb0a";
+  }
+  .architect-icons-md-git-merge:before {
+    content: "\eb0b";
+  }
+  .architect-icons-md-git-network:before {
+    content: "\eb0c";
+  }
+  .architect-icons-md-git-pull-request:before {
+    content: "\eb0d";
+  }
+  .architect-icons-md-glasses:before {
+    content: "\eb0e";
+  }
+  .architect-icons-md-globe:before {
+    content: "\eb0f";
+  }
+  .architect-icons-md-grid:before {
+    content: "\eb10";
+  }
+  .architect-icons-md-hammer:before {
+    content: "\eb11";
+  }
+  .architect-icons-md-hand:before {
+    content: "\eb12";
+  }
+  .architect-icons-md-happy:before {
+    content: "\eb13";
+  }
+  .architect-icons-md-headset:before {
+    content: "\eb14";
+  }
+  .architect-icons-md-heart:before {
+    content: "\eb15";
+  }
+  .architect-icons-md-heart-dislike:before {
+    content: "\eb16";
+  }
+  .architect-icons-md-heart-empty:before {
+    content: "\eb17";
+  }
+  .architect-icons-md-heart-half:before {
+    content: "\eb18";
+  }
+  .architect-icons-md-help:before {
+    content: "\eb19";
+  }
+  .architect-icons-md-help-buoy:before {
+    content: "\eb1a";
+  }
+  .architect-icons-md-help-circle:before {
+    content: "\eb1b";
+  }
+  .architect-icons-md-help-circle-outline:before {
+    content: "\eb1c";
+  }
+  .architect-icons-md-home:before {
+    content: "\eb1d";
+  }
+  .architect-icons-md-hourglass:before {
+    content: "\eb1e";
+  }
+  .architect-icons-md-ice-cream:before {
+    content: "\eb1f";
+  }
+  .architect-icons-md-image:before {
+    content: "\eb20";
+  }
+  .architect-icons-md-images:before {
+    content: "\eb21";
+  }
+  .architect-icons-md-infinite:before {
+    content: "\eb22";
+  }
+  .architect-icons-md-information:before {
+    content: "\eb23";
+  }
+  .architect-icons-md-information-circle:before {
+    content: "\eb24";
+  }
+  .architect-icons-md-information-circle-outline:before {
+    content: "\eb25";
+  }
+  .architect-icons-md-jet:before {
+    content: "\eb26";
+  }
+  .architect-icons-md-journal:before {
+    content: "\eb27";
+  }
+  .architect-icons-md-key:before {
+    content: "\eb28";
+  }
+  .architect-icons-md-keypad:before {
+    content: "\eb29";
+  }
+  .architect-icons-md-laptop:before {
+    content: "\eb2a";
+  }
+  .architect-icons-md-leaf:before {
+    content: "\eb2b";
+  }
+  .architect-icons-md-link:before {
+    content: "\eb2c";
+  }
+  .architect-icons-md-list:before {
+    content: "\eb2d";
+  }
+  .architect-icons-md-list-box:before {
+    content: "\eb2e";
+  }
+  .architect-icons-md-locate:before {
+    content: "\eb2f";
+  }
+  .architect-icons-md-lock:before {
+    content: "\eb30";
+  }
+  .architect-icons-md-log-in:before {
+    content: "\eb31";
+  }
+  .architect-icons-md-log-out:before {
+    content: "\eb32";
+  }
+  .architect-icons-md-magnet:before {
+    content: "\eb33";
+  }
+  .architect-icons-md-mail:before {
+    content: "\eb34";
+  }
+  .architect-icons-md-mail-open:before {
+    content: "\eb35";
+  }
+  .architect-icons-md-mail-unread:before {
+    content: "\eb36";
+  }
+  .architect-icons-md-male:before {
+    content: "\eb37";
+  }
+  .architect-icons-md-man:before {
+    content: "\eb38";
+  }
+  .architect-icons-md-map:before {
+    content: "\eb39";
+  }
+  .architect-icons-md-medal:before {
+    content: "\eb3a";
+  }
+  .architect-icons-md-medical:before {
+    content: "\eb3b";
+  }
+  .architect-icons-md-medkit:before {
+    content: "\eb3c";
+  }
+  .architect-icons-md-megaphone:before {
+    content: "\eb3d";
+  }
+  .architect-icons-md-menu:before {
+    content: "\eb3e";
+  }
+  .architect-icons-md-mic:before {
+    content: "\eb3f";
+  }
+  .architect-icons-md-mic-off:before {
+    content: "\eb40";
+  }
+  .architect-icons-md-microphone:before {
+    content: "\eb41";
+  }
+  .architect-icons-md-moon:before {
+    content: "\eb42";
+  }
+  .architect-icons-md-more:before {
+    content: "\eb43";
+  }
+  .architect-icons-md-move:before {
+    content: "\eb44";
+  }
+  .architect-icons-md-musical-note:before {
+    content: "\eb45";
+  }
+  .architect-icons-md-musical-notes:before {
+    content: "\eb46";
+  }
+  .architect-icons-md-navigate:before {
+    content: "\eb47";
+  }
+  .architect-icons-md-notifications:before {
+    content: "\eb48";
+  }
+  .architect-icons-md-notifications-off:before {
+    content: "\eb49";
+  }
+  .architect-icons-md-notifications-outline:before {
+    content: "\eb4a";
+  }
+  .architect-icons-md-nuclear:before {
+    content: "\eb4b";
+  }
+  .architect-icons-md-nutrition:before {
+    content: "\eb4c";
+  }
+  .architect-icons-md-open:before {
+    content: "\eb4d";
+  }
+  .architect-icons-md-options:before {
+    content: "\eb4e";
+  }
+  .architect-icons-md-outlet:before {
+    content: "\eb4f";
+  }
+  .architect-icons-md-paper:before {
+    content: "\eb50";
+  }
+  .architect-icons-md-paper-plane:before {
+    content: "\eb51";
+  }
+  .architect-icons-md-partly-sunny:before {
+    content: "\eb52";
+  }
+  .architect-icons-md-pause:before {
+    content: "\eb53";
+  }
+  .architect-icons-md-paw:before {
+    content: "\eb54";
+  }
+  .architect-icons-md-people:before {
+    content: "\eb55";
+  }
+  .architect-icons-md-person:before {
+    content: "\eb56";
+  }
+  .architect-icons-md-person-add:before {
+    content: "\eb57";
+  }
+  .architect-icons-md-phone-landscape:before {
+    content: "\eb58";
+  }
+  .architect-icons-md-phone-portrait:before {
+    content: "\eb59";
+  }
+  .architect-icons-md-photos:before {
+    content: "\eb5a";
+  }
+  .architect-icons-md-pie:before {
+    content: "\eb5b";
+  }
+  .architect-icons-md-pin:before {
+    content: "\eb5c";
+  }
+  .architect-icons-md-pint:before {
+    content: "\eb5d";
+  }
+  .architect-icons-md-pizza:before {
+    content: "\eb5e";
+  }
+  .architect-icons-md-planet:before {
+    content: "\eb5f";
+  }
+  .architect-icons-md-play:before {
+    content: "\eb60";
+  }
+  .architect-icons-md-play-circle:before {
+    content: "\eb61";
+  }
+  .architect-icons-md-podium:before {
+    content: "\eb62";
+  }
+  .architect-icons-md-power:before {
+    content: "\eb63";
+  }
+  .architect-icons-md-pricetag:before {
+    content: "\eb64";
+  }
+  .architect-icons-md-pricetags:before {
+    content: "\eb65";
+  }
+  .architect-icons-md-print:before {
+    content: "\eb66";
+  }
+  .architect-icons-md-pulse:before {
+    content: "\eb67";
+  }
+  .architect-icons-md-qr-scanner:before {
+    content: "\eb68";
+  }
+  .architect-icons-md-quote:before {
+    content: "\eb69";
+  }
+  .architect-icons-md-radio:before {
+    content: "\eb6a";
+  }
+  .architect-icons-md-radio-button-off:before {
+    content: "\eb6b";
+  }
+  .architect-icons-md-radio-button-on:before {
+    content: "\eb6c";
+  }
+  .architect-icons-md-rainy:before {
+    content: "\eb6d";
+  }
+  .architect-icons-md-recording:before {
+    content: "\eb6e";
+  }
+  .architect-icons-md-redo:before {
+    content: "\eb6f";
+  }
+  .architect-icons-md-refresh:before {
+    content: "\eb70";
+  }
+  .architect-icons-md-refresh-circle:before {
+    content: "\eb71";
+  }
+  .architect-icons-md-remove:before {
+    content: "\eb72";
+  }
+  .architect-icons-md-remove-circle:before {
+    content: "\eb73";
+  }
+  .architect-icons-md-remove-circle-outline:before {
+    content: "\eb74";
+  }
+  .architect-icons-md-reorder:before {
+    content: "\eb75";
+  }
+  .architect-icons-md-repeat:before {
+    content: "\eb76";
+  }
+  .architect-icons-md-resize:before {
+    content: "\eb77";
+  }
+  .architect-icons-md-restaurant:before {
+    content: "\eb78";
+  }
+  .architect-icons-md-return-left:before {
+    content: "\eb79";
+  }
+  .architect-icons-md-return-right:before {
+    content: "\eb7a";
+  }
+  .architect-icons-md-reverse-camera:before {
+    content: "\eb7b";
+  }
+  .architect-icons-md-rewind:before {
+    content: "\eb7c";
+  }
+  .architect-icons-md-ribbon:before {
+    content: "\eb7d";
+  }
+  .architect-icons-md-rocket:before {
+    content: "\eb7e";
+  }
+  .architect-icons-md-rose:before {
+    content: "\eb7f";
+  }
+  .architect-icons-md-sad:before {
+    content: "\eb80";
+  }
+  .architect-icons-md-save:before {
+    content: "\eb81";
+  }
+  .architect-icons-md-school:before {
+    content: "\eb82";
+  }
+  .architect-icons-md-search:before {
+    content: "\eb83";
+  }
+  .architect-icons-md-send:before {
+    content: "\eb84";
+  }
+  .architect-icons-md-settings:before {
+    content: "\eb85";
+  }
+  .architect-icons-md-share:before {
+    content: "\eb86";
+  }
+  .architect-icons-md-share-alt:before {
+    content: "\eb87";
+  }
+  .architect-icons-md-shirt:before {
+    content: "\eb88";
+  }
+  .architect-icons-md-shuffle:before {
+    content: "\eb89";
+  }
+  .architect-icons-md-skip-backward:before {
+    content: "\eb8a";
+  }
+  .architect-icons-md-skip-forward:before {
+    content: "\eb8b";
+  }
+  .architect-icons-md-snow:before {
+    content: "\eb8c";
+  }
+  .architect-icons-md-speedometer:before {
+    content: "\eb8d";
+  }
+  .architect-icons-md-square:before {
+    content: "\eb8e";
+  }
+  .architect-icons-md-square-outline:before {
+    content: "\eb8f";
+  }
+  .architect-icons-md-star:before {
+    content: "\eb90";
+  }
+  .architect-icons-md-star-half:before {
+    content: "\eb91";
+  }
+  .architect-icons-md-star-outline:before {
+    content: "\eb92";
+  }
+  .architect-icons-md-stats:before {
+    content: "\eb93";
+  }
+  .architect-icons-md-stopwatch:before {
+    content: "\eb94";
+  }
+  .architect-icons-md-subway:before {
+    content: "\eb95";
+  }
+  .architect-icons-md-sunny:before {
+    content: "\eb96";
+  }
+  .architect-icons-md-swap:before {
+    content: "\eb97";
+  }
+  .architect-icons-md-switch:before {
+    content: "\eb98";
+  }
+  .architect-icons-md-sync:before {
+    content: "\eb99";
+  }
+  .architect-icons-md-tablet-landscape:before {
+    content: "\eb9a";
+  }
+  .architect-icons-md-tablet-portrait:before {
+    content: "\eb9b";
+  }
+  .architect-icons-md-tennisball:before {
+    content: "\eb9c";
+  }
+  .architect-icons-md-text:before {
+    content: "\eb9d";
+  }
+  .architect-icons-md-thermometer:before {
+    content: "\eb9e";
+  }
+  .architect-icons-md-thumbs-down:before {
+    content: "\eb9f";
+  }
+  .architect-icons-md-thumbs-up:before {
+    content: "\eba0";
+  }
+  .architect-icons-md-thunderstorm:before {
+    content: "\eba1";
+  }
+  .architect-icons-md-time:before {
+    content: "\eba2";
+  }
+  .architect-icons-md-timer:before {
+    content: "\eba3";
+  }
+  .architect-icons-md-today:before {
+    content: "\eba4";
+  }
+  .architect-icons-md-train:before {
+    content: "\eba5";
+  }
+  .architect-icons-md-transgender:before {
+    content: "\eba6";
+  }
+  .architect-icons-md-trash:before {
+    content: "\eba7";
+  }
+  .architect-icons-md-trending-down:before {
+    content: "\eba8";
+  }
+  .architect-icons-md-trending-up:before {
+    content: "\eba9";
+  }
+  .architect-icons-md-trophy:before {
+    content: "\ebaa";
+  }
+  .architect-icons-md-tv:before {
+    content: "\ebab";
+  }
+  .architect-icons-md-umbrella:before {
+    content: "\ebac";
+  }
+  .architect-icons-md-undo:before {
+    content: "\ebad";
+  }
+  .architect-icons-md-unlock:before {
+    content: "\ebae";
+  }
+  .architect-icons-md-videocam:before {
+    content: "\ebaf";
+  }
+  .architect-icons-md-volume-high:before {
+    content: "\ebb0";
+  }
+  .architect-icons-md-volume-low:before {
+    content: "\ebb1";
+  }
+  .architect-icons-md-volume-mute:before {
+    content: "\ebb2";
+  }
+  .architect-icons-md-volume-off:before {
+    content: "\ebb3";
+  }
+  .architect-icons-md-walk:before {
+    content: "\ebb4";
+  }
+  .architect-icons-md-wallet:before {
+    content: "\ebb5";
+  }
+  .architect-icons-md-warning:before {
+    content: "\ebb6";
+  }
+  .architect-icons-md-watch:before {
+    content: "\ebb7";
+  }
+  .architect-icons-md-water:before {
+    content: "\ebb8";
+  }
+  .architect-icons-md-wifi:before {
+    content: "\ebb9";
+  }
+  .architect-icons-md-wine:before {
+    content: "\ebba";
+  }
+  .architect-icons-md-woman:before {
+    content: "\ebbb";
+  }
